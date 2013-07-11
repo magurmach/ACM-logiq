@@ -6,8 +6,8 @@ Problem Link  : http://lightoj.com/volume_showproblem.php?problem=1073
 
 You are given a list of strings over the alphabet A (for adenine), C (cytosine), G (guanine), and T (thymine), and your task is to find the shortest string (which is typically not listed) that contains all given strings as substrings. If there are several such strings of shortest length, find the smallest in alphabetical/lexicographical order.
 
-Input:
-======
+Input
+=====
 
 Input starts with an integer T (≤ 35), denoting the number of test cases.
 
