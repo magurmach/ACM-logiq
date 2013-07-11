@@ -1,0 +1,41 @@
+
+
+Problem Title : Good or Bad
+Problem Number: 1051
+Problem Link  : http://lightoj.com/volume_showproblem.php?problem=1051
+
+A string is called bad if it has 3 vowels in a row, or 5 consonants in a row, or both. A string is called good if it is not bad. You are given a string s, consisting of uppercase letters ('A'-'Z') and question marks ('?'). Return "BAD" if the string is definitely bad (that means you cannot substitute letters for question marks so that the string becomes good), "GOOD" if the string is definitely good, and "MIXED" if it can be either bad or good.
+
+The letters 'A', 'E', 'I', 'O', 'U' are vowels, and all others are consonants.
+
+Input
+=====
+
+Input starts with an integer T (≤ 200), denoting the number of test cases.
+
+Each case begins with a non-empty string with length no more than 50.
+
+Output
+======
+
+For each case of input you have to print the case number and the result according to the description.
+
+
+Sample Input:
+=============
+
+5
+FFFF?EE
+HELLOWORLD
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+HELLO?ORLD
+AAA
+
+Sample Output:
+==============
+
+Case 1: BAD
+Case 2: GOOD
+Case 3: BAD
+Case 4: MIXED
+Case 5: BAD

@@ -1,0 +1,33 @@
+
+
+Rimi learned a new thing about integers, which is - any positive integer greater than 1 can be divided by its divisors. So, he is now playing with this property. He selects a number N. And he calls this D.
+
+In each turn he randomly chooses a divisor of D (1 to D). Then he divides D by the number to obtain new D. He repeats this procedure until D becomes 1. What is the expected number of moves required for N to become 1.
+
+Input
+=====
+
+Input starts with an integer T (≤ 10000), denoting the number of test cases.
+
+Each case begins with an integer N (1 ≤ N ≤ 105).
+
+Output
+======
+
+For each case of input you have to print the case number and the expected value. Errors less than 10-6 will be ignored.
+
+
+Sample Input:
+=============
+
+3
+1
+2
+50
+
+Sample Output:
+==============
+
+Case 1: 0
+Case 2: 2.00
+Case 3: 3.0333333333

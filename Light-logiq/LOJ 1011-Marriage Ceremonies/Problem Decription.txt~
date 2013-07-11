@@ -1,0 +1,44 @@
+
+Problem Title:
+Problem Number: 1011
+Problem Link: http://lightoj.com/volume_showproblem.php?problem=1011
+
+
+You work in a company which organizes marriages. Marriages are not that easy to be made, so, the job is quite hard for you.
+
+The job gets more difficult when people come here and give their bio-data with their preference about opposite gender. Some give priorities to family background, some give priorities to education, etc.
+
+Now your company is in a danger and you want to save your company from this financial crisis by arranging as much marriages as possible. So, you collect N bio-data of men and N bio-data of women. After analyzing quite a lot you calculated the priority index of each pair of men and women.
+
+Finally you want to arrange N marriage ceremonies, such that the total priority index is maximized. Remember that each man should be paired with a woman and only monogamous families should be formed.
+
+Input
+=====
+
+Input starts with an integer T (≤ 100), denoting the number of test cases.
+
+Each case contains an integer N (1 ≤ n ≤ 16), denoting the number of men or women. Each of the next N lines will contain N integers each. The jth integer in the ith line denotes the priority index between the ith man and jth woman. All the integers will be positive and not greater than 10000.
+
+Output
+======
+
+For each case, print the case number and the maximum possible priority index after all the marriages have been arranged.
+
+
+Sample Input:
+=============
+
+2
+2
+1 5
+2 1
+3
+1 2 3
+6 5 4
+8 1 2
+
+Sample Output:
+==============
+
+Case 1: 7
+Case 2: 16

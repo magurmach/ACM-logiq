@@ -23,12 +23,7 @@ Technical Description
 			[-] Resource or refference documentation (optional)
 
 [-].Code-Of-Ethics
-	[-] A real contest programmer never copies code, hereby copying code directly from this resource
-	    will be considered against Code Of Ethics
-        [-] Question over logic and algorithms should not be discouraged
-	[-] If Programmers, using this repository, can develop better way of solving a problem, should
-	    share the development
-        [-] Violation of Code Of Ethics should be reported  
+	[-] Who the hell cares?  
 
 
 [-].Coder-Info

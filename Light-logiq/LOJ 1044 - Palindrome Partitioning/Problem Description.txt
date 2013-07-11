@@ -1,0 +1,39 @@
+
+Problem Title : Palindrome Partitioning
+Problem Number: 1044
+Problem Link  : http://lightoj.com/volume_showproblem.php?problem=1044
+
+
+A palindrome partition is the partitioning of a string such that each separate substring is a palindrome.
+
+For example, the string "ABACABA" could be partitioned in several different ways, such as {"A","B","A","C","A","B","A"}, {"A","BACAB","A"}, {"ABA","C","ABA"}, or {"ABACABA"}, among others.
+
+You are given a string s. Return the minimum possible number of substrings in a palindrome partition of s.
+
+Input:
+======
+
+Input starts with an integer T (≤ 40), denoting the number of test cases.
+
+Each case begins with a non-empty string s of uppercase letters with length no more than 1000.
+
+Output:
+=======
+
+For each case of input you have to print the case number and the desired result.
+
+
+Sample Input:
+=============
+
+3
+AAAA
+ABCDEFGH
+QWERTYTREWQWERT
+
+Sample Output:
+==============
+
+Case 1: 1
+Case 2: 8
+Case 3: 5

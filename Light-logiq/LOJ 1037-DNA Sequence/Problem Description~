@@ -1,0 +1,38 @@
+
+Problem Title : DNA Sequence 
+Problem Number: 1073
+Problem Link  : http://lightoj.com/volume_showproblem.php?problem=1073
+
+
+You are given a list of strings over the alphabet A (for adenine), C (cytosine), G (guanine), and T (thymine), and your task is to find the shortest string (which is typically not listed) that contains all given strings as substrings. If there are several such strings of shortest length, find the smallest in alphabetical/lexicographical order.
+
+Input
+=====
+
+Input starts with an integer T (≤ 35), denoting the number of test cases.
+
+Each case starts with an integer denoting the number of strings n (1 ≤ n ≤ 15) in a single line. Then these n strings (1 ≤ length ≤ 100) follow, one on each line, and they consist of the letters 'A', 'C', 'G' and 'T' only.
+
+Output
+======
+
+For each case, print the case number and the shortest (and lexicographically smallest) string according to the description above.
+
+
+Sample Input:
+=============
+
+2
+2
+TGCACA
+CAT
+3
+TAC
+ACT
+CTA
+
+Sample Output:
+==============
+
+Case 1: TGCACAT
+Case 2: ACTAC

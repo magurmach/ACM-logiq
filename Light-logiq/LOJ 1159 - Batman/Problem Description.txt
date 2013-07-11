@@ -1,0 +1,46 @@
+
+Problem Title : Batman
+Problem Number: 1159
+Problem Link  : http://lightoj.com/volume_showproblem.php?problem=1159
+
+
+Batman is in deep trouble. You know that superheroes are there to help you when you are in trouble. But in Gotham city there is no trouble. So, 'no trouble' is actually the trouble for our Batman.
+
+So, Batman is trying to solve ACM problems because he wants to be a good programmer like you :). But alas! He is not that smart. But still he is trying. He found 3 strings of characters. Now he wants to find the maximum string which is contained in all the three strings as a sub sequence. He wants to find the maximum length, not the sequence.
+
+Now, Batman claims that he is a better programmer than you. So, you are solving the same problem. Can you solve faster? You are guaranteed that Batman will need 3 hours to solve the problem. So, you have to be faster than him.
+
+Input
+=====
+
+Input starts with an integer T (≤ 200), denoting the number of test cases.
+
+Each case will contain a blank line and three strings in three lines. None of the string lengths will be greater than 50 and less than 1. And the string will contain alphanumeric characters only.
+
+Output
+======
+
+For each case, print one line containing the case number and the length of the largest subsequence.
+
+Sample Input
+============
+
+3
+abcdef
+cdef
+dcdef
+
+aaaa
+bbbb
+ccca
+
+aaaa
+aaaa
+aaa
+	
+Sample Output
+=============
+
+Case 1: 4
+Case 2: 0
+Case 3: 3
