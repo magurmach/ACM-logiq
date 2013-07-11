@@ -1,0 +1,41 @@
+
+Problem Title: A wedding Party
+Problem Number: 1316
+Problem Link: http://lightoj.com/volume_showproblem.php?problem=1316
+
+
+We all know that we have a big and exciting wedding party ahead. So we made a plan to go to buy a gift for the wedding party. We all gathered at a place and we were just about to buy the gift. Unfortunately, we find that we have a 'Team Practice Contest' ahead. Now before going to the contest we have to buy the gift. As time is too short we will try to buy the gift on the way to the contest. We will try to visit as many shops as possible. The city map is represented by a graph with N nodes and M edges. N nodes represent the N junctions and M edges represent the M unidirectional roads connecting the cities. Every road has a cost which represents the required time to use the road. The contest is running at junction N-1 and we will start our journey at junction 0. And there are exactly S shops located at different junctions.
+
+Now given the location of the shops you have to find the route from junction 0 to junction N-1 which will visit maximum number of shops with minimum time (first maximize the number of shops then minimize the time to visit them). We can visit a junction more than once.
+
+Input:
+
+Input starts with an integer T (≤ 50), denoting the number of test cases.
+
+Each case begins with three non negative integers N (2 ≤ N ≤ 500), M (1 ≤ M ≤ 10000) S (0 ≤ S ≤ 15). Next line contains S integers denoting the shop locations. Each of the next M lines contains three integers u, v, w (0 < u, v < N, u ≠ v, 1 ≤ w ≤ 100) denoting a road from u to v with cost w.
+
+Output:
+
+For each case of input you have to print the case number and two integers representing maximum number of shops we can visit in the way and the minimum time required to reach junction N-1 after visiting maximum number of shops. If we cannot attend the contest, print "Impossible". See samples for more details.
+
+Sample Input:
+
+2
+4 4 4
+0 1 2 3
+0 1 10
+1 3 30
+0 2 30
+2 3 5
+4 4 4
+0 1 2 3
+0 1 10
+3 1 30
+0 2 30
+3 2 5
+
+Sample Output:
+
+Case 1: 3 35
+Case 2: Impossible
+
