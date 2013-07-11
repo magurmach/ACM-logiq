@@ -1,0 +1,53 @@
+Tag:
+
+DP, Iterative DP
+
+Hints:
+
+Basically we have to find two path from (0,0) to (n-1,n-1) where both path only goes forward or down and they do
+not intersect.
+So we will think the problem to be following. To person starts their journey through the grid from (0,0) location.
+They both will reach (n-1,n-1) at the same time. Clearly as their path will not cross each other, one will remain
+always at higher place and other at lower or their path will have to intersect. Now we have to maximize the amount
+of resources collected by both paths.
+
+Every DP problem is about stating. A comfortable stating for this problem will be location to the two people.
+So, something like this,
+
+int memo[m][n][m][n] for m*n grid, but m,n<=100, so thats clearly not possible.
+
+So again we will count resoures collected column by column, resulting in
+
+int memo[n][m][m] //memoization module
+
+There are basically two cases then,
+
+As for column counting when a person progress to next column we will have to push other to the next column also.
+
+    for(i=1;i<=n;i++)
+    {
+	//both of them progressing to i-th column from  the previous column
+        for(j=1;j<=m;j++)
+        {
+            for(k=j+1;k<=m;k++)
+            {
+                memo[i][j][k]=memo[i-1][j][k]+grid[j][i]+grid[k][i];
+            }
+        }
+	//the upper player is coming down
+        for(j=1;j<=m;j++)
+        {
+            for(k=j+1;k<=m;k++)
+            {
+                memo[i][j][k]=max(memo[i][j][k],memo[i][j-1][k]+grid[j][i]);
+            }
+        }
+	//the lower player is coming down
+        for(j=1;j<=m;j++)
+        {
+            for(k=j+2;k<=m;k++)
+            {
+                memo[i][j][k]=max(memo[i][j][k],memo[i][j][k-1]+grid[k][i]);
+            }
+        }
+    }

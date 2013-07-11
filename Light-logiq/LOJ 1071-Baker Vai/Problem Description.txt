@@ -1,0 +1,38 @@
+
+Problem Title: Baker Vai
+Problem Number: 1071
+Problem Link: http://lightoj.com/volume_showproblem.php?problem=1071
+
+
+All of you must have heard the name of Baker Vai. Yes, he rides a bike and likes to help people. That's why he is popular amongst general people.
+
+Baker Vai lives in a city which can be modeled as a 2D m x n matrix. Where the north-west corner is cell 1, 1 and the south-east corner is cell m, n. In each cell there are certain amount of people who needs help which is already known to Baker Vai.
+
+Each day Baker Vai starts his journey from the north-west corner and he can only go to east or south. This way he reaches the south-east corner of the city. After that he returns back to the north-west, but this time he can only move to west or north. He doesn't want a cell to be visited twice other than the two corners. And if he visits a cell, he helps all the people in the cell.
+
+Now you are given the map of the city and the number of people who need help in all cells for a particular day. You have to help Baker Vai finding the maximum number of people he can help in that day.
+
+Input:
+Input starts with an integer T (≤ 25), denoting the number of test cases.
+
+Each case contains a blank line and two integers, m, n (2 ≤ m, n ≤ 100). Each of the next m lines will contain n integers, denoting the number of people who are in need. In a cell there will be no more than 20 people and a cell can be empty, too.
+
+Output:
+For each test case, print the case number and the maximum number of people Baker Vai can help considering the above conditions.
+
+Sample Input:
+
+2
+3 3
+1 1 1
+1 0 1
+1 1 1
+3 4
+1 1 0 1
+1 1 1 1
+0 1 10 1
+
+Sample Output:
+
+Case 1: 8
+Case 2: 18
